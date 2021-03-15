@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Victor Lira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="description" content="listen to pop and rap musica, have some fun">
+    <meta name="keywords" content="music, eminem, 30 seconds to mars, avenged sevenfold, a7x, godzilla">
+    <link rel="shortcut icon" type="image/ico" href="./imagens/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <title>The city of Music</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="overlay"></div>
+        <div class="popUp">
+            <div class="popUp-header">
+                <strong>Music </strong><span>player</span>
+            </div>
+            <button>&times;</button>
+            <div class="popUp-image"></div>
+            
+            <div class="popUp-informations">
+                <h4>Artist: <span id="artist"></span></h4>
+                <h4>Song's name: <span id="song-name"></span></h4>
+                <h4>Release Date: <span id="release"></span></h4>
+            </div>
+           <div class="popUp-footer">
+            <strong>city of music</strong>
+           </div>
+        </div>
+        <div class="container">
+            <div class="header"> 
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+                <div><strong>Music </strong><span>player</span></div>
+            </div>
+            <div class="btn">
+                <input type="button" class="hide" id="about-music" value="About this song">
+            </div>
+            <div class="images">
+                <img src="./imagens/starter.png" alt="foto inicial">
+            </div>
+            <!--images-->
+            <div class="current-play hide">
+                <p id='currentName'>eminem</p>
+                <p id="currentSong">Godzilla</p>
+            </div>
+            <div class="song">
+                <audio controls preload="metadata"></audio>
+            </div>
+            <!--song-->
+            <div class="btn">
+                <button class="btn-starter"><strong>Play</strong> Random</button>
+            </div>
+
+            <div class="footer">
+               <strong>city of music</strong>
+            </div>
+        </div>
+        <footer>&copy; Victor lira</footer>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/545ea23f83.js" crossorigin="anonymous"></script>
+</body>
+</html>
