@@ -40,7 +40,7 @@ the project was developed using the following technologies
 </h1>
 
 :key: Run the application
-Clone this repository $ git clone https://github.com/raissaboeng/landing-page-masterclass.git
+Clone this repository $ git clone https://github.com/VictorLira-DEV/The-city-of-music
 
 Open the project folder on your machine and run the index.html file in your browser.
 
