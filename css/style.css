@@ -273,15 +273,11 @@ body.dark {
     padding: 10px; }
   .wrapper .btn-starter {
     margin-bottom: 10%; }
-  body {
-    padding: 50px 5px 5px 5px; } }
 
 @media (max-width: 420px) {
   .container {
     width: 90%;
     padding: 30px 10px; }
-  body {
-    padding: 5px; } }
 
 @media screen and (max-width: 358px) {
   .images {
