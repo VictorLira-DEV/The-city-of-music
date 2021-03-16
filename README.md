@@ -14,6 +14,11 @@ Take a look https://the-city-of-music.vercel.app/
 - [technologies](#-technologies)
 - [Contributing](#-Contributing)
 
+## Dark mode
+
+<h1 align="center" >
+    <img src="https://ik.imagekit.io/Victorliradev/Animated_GIF-downsized_large__1__PxY1HsFt8.gif">
+</h1>
 
 ## :mag:  About
 This project is called the city of music, you can listen to some music that I like :), 
@@ -36,12 +41,6 @@ the project was developed using the following technologies
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JAVASCRIPT](https://www.javascript.com/)
-
-## Dark mode
-
-<h1 align="center" >
-    <img src="https://ik.imagekit.io/Victorliradev/Animated_GIF-downsized_large__1__PxY1HsFt8.gif">
-</h1>
 
 :key: Run the application
 Clone this repository $ git clone https://github.com/VictorLira-DEV/The-city-of-music
