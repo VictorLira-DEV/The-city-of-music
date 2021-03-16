@@ -11,7 +11,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: #c7b6fa;
-  padding: 20px; }
+  padding: 70px 5px 5px 5px;; }
 
 body.dark {
   background-color: #292c35; }
