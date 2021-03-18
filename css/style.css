@@ -236,6 +236,7 @@ body.dark {
       overflow: hidden;}
 
       .wrapper .container .images img {
+        border: 2px solid white;
         position: absolute;
          left: 0;
          top: 0;
