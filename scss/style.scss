@@ -271,13 +271,18 @@ body.dark{
         }
     
         .images{
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-            border: 2px solid white;
-            border-radius: 50%;
+            width: 70%;
+            padding-top: 70%;
+            position: relative;
             overflow: hidden;
             img{
+                position: absolute;
+                left: 0;
+                top: 0;
                 width: 100%;
                 height: 100%;
+                background-color: black;
+                border-radius: 50%;
             }
         }
 
@@ -308,6 +313,7 @@ body.dark{
             height: 100px;
             display: flex;
             width: 100%;
+            margin: 10px 0;
     
             audio{
                 border-radius: 3px;
@@ -389,11 +395,6 @@ body.dark{
 }
 
 @media screen and ( max-width: 358px){
-    .images {
-        width: 50%;
-        height: 30%;
-    }
-
     .wrapper{
         .container{
             padding: 10px 10px;
