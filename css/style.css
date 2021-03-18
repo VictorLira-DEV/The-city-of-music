@@ -17,7 +17,7 @@ body.dark {
   background-color: #292c35; }
 
 .wrapper {
-  justify-content: flex-end;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -305,6 +305,10 @@ body.dark {
     color: white; }
 
 @media screen and (max-width: 500px) {
+  .wrapper{
+    justify-content: flex-end;
+  }
+  
   .wrapper .container{
        width: 90%;
        padding: 30px 10px;
