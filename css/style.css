@@ -311,7 +311,7 @@ body.dark {
   .wrapper .btn-starter {
     margin-bottom: 10%; }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .wrapper{
         .container{
             width: 90%;
