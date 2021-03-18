@@ -41,7 +41,7 @@ body.dark{
 
 .wrapper{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
     position: relative;
     align-items: center;
@@ -379,6 +379,7 @@ body.dark{
 
 @media (max-width: 500px){
     .wrapper{
+        justify-content: flex-end
         .container{
             width: 90%;
             padding: 30px 10px;
