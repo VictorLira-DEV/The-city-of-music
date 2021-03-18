@@ -378,9 +378,12 @@ body.dark{
  
 
 @media (max-width: 420px){
-    .container{
-        width: 90%;
-        padding: 30px 10px;
+    .wrapper{
+        .container{
+            width: 90%;
+            padding: 30px 10px;
+            height: 500px;
+        }
     }
 }
 
