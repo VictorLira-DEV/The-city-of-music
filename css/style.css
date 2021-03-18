@@ -312,13 +312,11 @@ body.dark {
     margin-bottom: 10%; }
 
 @media (max-width: 500px) {
-  .wrapper{
-        .container{
-            width: 90%;
-            padding: 30px 10px;
-            height: 500px;}
-          }       
- }
+   .container{
+       width: 90%;
+       padding: 30px 10px;
+        height: 500px;}
+ }       
 
 @media screen and (max-width: 358px) {
   .images {
