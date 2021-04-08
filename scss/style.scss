@@ -95,7 +95,7 @@ body.dark{
         }
 
         .popUp-image{
-            @include border( 1px solid black);
+            @include border( 2px solid white);
             border-radius: 50%;
             max-height: 150px;
             max-width: 150px;
