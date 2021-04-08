@@ -76,7 +76,7 @@ body.dark {
       right: 50%; }
 
     .wrapper .popUp .popUp-image {
-      border: 1px solid black;
+      border: 2px solid white;
       border-radius: 50%;
       max-height: 150px;
       max-width: 150px;
