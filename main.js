@@ -39,12 +39,12 @@ function goRandom() {
     const musicas = [
         {},
         {
-            name: ' a7x  ',
+            name: ' A7x  ',
             song: 'Afterlife', 
             year: 2007
         },
         {
-            name: ' a7x ',
+            name: ' A7x ',
             song: 'The stage', 
             year: 2016
         },
@@ -54,7 +54,7 @@ function goRandom() {
             year: 2009
         },
         {
-            name: '30 s.t.m',
+            name: '30 S.T.M',
             song: 'Up in the air', 
             year: 2013 
         },
