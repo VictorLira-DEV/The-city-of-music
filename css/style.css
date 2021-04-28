@@ -11,20 +11,19 @@ body {
   width: 100vw;
   height: 100vh;
   background: #c7b6fa;
-  padding:10px; }
+  padding: 10px; }
 
 body.dark {
   background-color: #292c35; }
 
 .wrapper {
-  justify-content: center;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   position: relative;
   align-items: center;
   width: 100%;
   height: 100%; }
-
   .wrapper .overlay {
     transition: 200ms ease-in-out;
     -webkit-transition: 200ms ease-in-out;
@@ -36,7 +35,6 @@ body.dark {
     height: 100vh;
     opacity: 0;
     z-index: 10; }
-
   .wrapper .popUp {
     transform: translate(-50%, -50%) scale(0);
     -webkit-transform: translate(-50%, -50%) scale(0);
@@ -56,7 +54,6 @@ body.dark {
     opacity: 0;
     left: 50%;
     top: 50%; }
-
     .wrapper .popUp button {
       transition: 200ms ease-in-out;
       -webkit-transition: 200ms ease-in-out;
@@ -74,7 +71,6 @@ body.dark {
       padding: 0;
       top: -50px;
       right: 50%; }
-
     .wrapper .popUp .popUp-image {
       border: 2px solid white;
       border-radius: 50%;
@@ -82,24 +78,19 @@ body.dark {
       max-width: 150px;
       overflow: hidden;
       margin: 0 auto; }
-
       .wrapper .popUp .popUp-image img {
         width: 100%;
         height: 100%; }
-
     .wrapper .popUp .popUp-informations {
       justify-content: space-between;
       flex-direction: column;
       margin-top: 30px;
       height: 100px;
       display: flex; }
-
       .wrapper .popUp .popUp-informations h4 {
         color: #8742e0; }
-
       .wrapper .popUp .popUp-informations span {
         color: black; }
-
     .wrapper .popUp .popUp-header {
       background-color: #7b69b1;
       border-top-left-radius: 3px;
@@ -111,7 +102,6 @@ body.dark {
       width: 100%;
       left: 0;
       top: 0; }
-
     .wrapper .popUp .popUp-footer {
       border-bottom-right-radius: 4px;
       border-bottom-left-radius: 4px;
@@ -125,7 +115,6 @@ body.dark {
       width: 100%;
       bottom: 0;
       left: 0; }
-
   .wrapper .popUp.active {
     transition: 200ms ease-in-out;
     -webkit-transition: 200ms ease-in-out;
@@ -134,23 +123,19 @@ body.dark {
     -moz-transform: translate(-50%, -50%) scale(1);
     transform: translate(-50%, -50%) scale(1);
     opacity: 1; }
-
   .wrapper .popUp.active.dark {
     background: #292c35; }
-
   .wrapper .popUp.active.dark span {
     color: white; }
-
   .wrapper .overlay.active {
     opacity: 1;
     pointer-events: all; }
-
   .wrapper .container {
     transition: background 0.1s linear;
     -webkit-transition: 200ms ease-in-out;
     -moz-transition: 200ms ease-in-out;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
-    margin-bottom: 10px;
+    display: flex;
     justify-content: space-around;
     background-color: #b399ff;
     flex-direction: column;
@@ -158,13 +143,11 @@ body.dark {
     max-width: 330px;
     border-radius: 4px;
     padding: 40px 40px;
+    margin-bottom: 10px;
     align-items: center;
-    height: 600px;
-    display: flex; }
-
+    height: 600px; }
     .wrapper .container .hide {
       display: none; }
-
     .wrapper .container .header {
       display: flex;
       justify-content: space-between;
@@ -177,14 +160,11 @@ body.dark {
       text-align: end;
       width: 100%;
       top: 0; }
-
       .wrapper .container .header .checkbox {
         opacity: 0;
         position: absolute; }
-
       .wrapper .container .header .checkbox:checked + .label .ball {
         transform: translateX(24px); }
-
       .wrapper .container .header .label {
         display: flex;
         justify-content: space-between;
@@ -195,7 +175,6 @@ body.dark {
         width: 50px;
         height: 26px;
         padding: 5px; }
-
         .wrapper .container .header .label .fa-moon {
           color: #f1c40d; }
         .wrapper .container .header .label .fa-sun {
@@ -209,7 +188,6 @@ body.dark {
         height: 22px;
         top: 2px;
         left: 2px; }
-
     .wrapper .container .btn input#about-music {
       transition: 0.5s;
       -webkit-transition: 200ms ease-in-out;
@@ -225,33 +203,27 @@ body.dark {
       top: -35px;
       left: -2px;
       z-index: 1; }
-
       .wrapper .container .btn input#about-music:hover {
         background: #413072; }
-
     .wrapper .container .images {
       width: 70%;
       padding-top: 70%;
       position: relative;
-      overflow: hidden;}
-
+      overflow: hidden; }
       .wrapper .container .images img {
         border: 2px solid white;
         position: absolute;
-         left: 0;
-         top: 0;
-         width: 100%;
-         height: 100%;
-         background-color: black;
-         border-radius: 50%;
-       }
-
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border-radius: 50%; }
     .wrapper .container .current-play :first-child {
       text-transform: uppercase;
       text-align: center;
       font-size: 2rem;
       color: white; }
-
     .wrapper .container .current-play :last-child {
       text-transform: uppercase;
       background: white;
@@ -262,21 +234,17 @@ body.dark {
       width: 100%;
       opacity: .3;
       color: black; }
-
     .wrapper .container .song {
       justify-content: center;
       align-items: center;
       height: 100px;
       display: flex;
-      margin: 10px 0;
-      width: 100%; }
-
+      width: 100%;
+      margin: 10px 0; }
       .wrapper .container .song audio {
         border-radius: 3px; }
-
     .wrapper .container .btn {
       margin-bottom: 30px; }
-
       .wrapper .container .btn button.btn-starter {
         text-transform: uppercase;
         border: 1px solid #302650;
@@ -288,10 +256,8 @@ body.dark {
         color: white;
         cursor: pointer;
         transition: 0.4s; }
-
         .wrapper .container .btn button.btn-starter:hover {
           background: #413072; }
-
     .wrapper .container .footer {
       border-bottom-right-radius: 4px;
       border-bottom-left-radius: 4px;
@@ -304,34 +270,29 @@ body.dark {
       color: white;
       width: 100%;
       bottom: 0; }
-
   .wrapper .container.dark {
     background: #292c35; }
-
   .wrapper footer {
     margin-top: 10px;
     color: white; }
 
 @media screen and (max-width: 500px) {
-  .wrapper{
-    justify-content: flex-end;
-  }
-  
-  .wrapper .container{
-       width: 90%;
-       padding: 30px 10px;
-       height: 500px;}
-  
+  .wrapper .container {
+    padding: 10px; }
   .wrapper .btn-starter {
-    margin-bottom: 10%; }
+    margin-bottom: 10%; } }
 
- }       
+@media (max-width: 500px) {
+  .wrapper {
+    justify-content: flex-end; }
+    .wrapper .container {
+      width: 90%;
+      padding: 30px 10px;
+      height: 500px; } }
 
 @media screen and (max-width: 358px) {
-  
   .wrapper .container {
     padding: 10px 10px;
     height: 500px; }
-  
     .wrapper .container .btn {
       margin-bottom: 50px; } }
