@@ -1,7 +1,7 @@
 # The City of Music
 
 <h1 align="center" >
-    <img src="https://ik.imagekit.io/Victorliradev/Animated_GIF-downsized_large_dnaVBerq6.gif">
+    <img src="https://ik.imagekit.io/mcvhbcq4zu/player_-lPLhZBTD.gif">
 </h1>
 
 # Important
@@ -17,7 +17,7 @@ Take a look --> https://the-city-of-music.vercel.app/
 ## Dark mode
 
 <h1 align="center" >
-    <img src="https://ik.imagekit.io/Victorliradev/Animated_GIF-downsized_large__1__PxY1HsFt8.gif">
+    <img src="https://ik.imagekit.io/mcvhbcq4zu/playerMobile_5mpQoBQ5J.gif">
 </h1>
 
 ## :mag:  About
