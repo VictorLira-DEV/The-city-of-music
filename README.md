@@ -7,7 +7,7 @@
     <img src="https://ik.imagekit.io/mcvhbcq4zu/player_-lPLhZBTD.gif">
 </h1>
 
-# Important
+# :star: Important
 
 Take a look --> https://the-city-of-music.vercel.app/
 
