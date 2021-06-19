@@ -2,7 +2,7 @@
 ## **<h2 align="center"> City of music </h2>**
 
 
-## **<h2 align="center">[Front end application](https://podcastr-mathwcruz.vercel.app/)  💻</h2>**
+## **<h2 align="center">Front end application 💻</h2>**
 <h1 align="center" >
     <img src="https://ik.imagekit.io/mcvhbcq4zu/player_-lPLhZBTD.gif">
 </h1>
